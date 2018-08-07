@@ -1,0 +1,8 @@
+Mon, 06 Aug 2018 05:51:54 GMT tedious deprecated The default value for `options.encrypt` will change from `false` to `true`. Please pass `false` explicitly if you want to retain current behaviour. at node_modules\mssql\lib\tedious.js:212:23
+Mon, 06 Aug 2018 05:51:55 GMT tedious deprecated The `IntN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:63:20
+Mon, 06 Aug 2018 05:51:55 GMT tedious deprecated The `BitN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:71:40
+Mon, 06 Aug 2018 05:51:55 GMT tedious deprecated The `FloatN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:73:20
+Mon, 06 Aug 2018 05:51:55 GMT tedious deprecated The `MoneyN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:78:20
+Mon, 06 Aug 2018 05:51:55 GMT tedious deprecated The `NumericN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:82:44
+Mon, 06 Aug 2018 05:51:55 GMT tedious deprecated The `DecimalN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:83:44
+Mon, 06 Aug 2018 05:51:55 GMT tedious deprecated The `DateTimeN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:85:20
