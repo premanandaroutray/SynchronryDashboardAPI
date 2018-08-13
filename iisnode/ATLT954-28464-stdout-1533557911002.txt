@@ -1,1 +1,0 @@
-Server is running on Port:\\.\pipe\2893ba7c-1e8a-4b41-82b4-6d1f7172e183Started at:Mon Aug 06 2018 17:48:33 GMT+0530 (India Standard Time)

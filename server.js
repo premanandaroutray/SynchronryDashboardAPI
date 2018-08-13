@@ -20,8 +20,15 @@ app.use((req,res,next)=>{
 
 const userDetailsController=require('./controller/userDetailsController')();
 const loginController=require('./controller/loginController')();
+const menuController=require('./controller/menuController')();
+const dashboardController=require('./controller/dashboardController')();
+const dashboardtaskController=require('./controller/dashboardtaskController')();
+
 app.use("/api/userDetails",userDetailsController);
 app.use("/api/login",loginController);
+app.use("/api/menus",menuController);
+app.use("/api/dashboard",dashboardController);
+app.use("/api/dashboardtask",dashboardtaskController);
 
 
 app.listen(port,function(){
