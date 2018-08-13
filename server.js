@@ -19,9 +19,19 @@ app.use((req,res,next)=>{
 })
 
 const userDetailsController=require('./controller/userDetailsController')();
+const taskDetailsController=require('./controller/taskDetailsController')();
 const loginController=require('./controller/loginController')();
+const projectController=require('./controller/projectController')();
+const roleController=require('./controller/roleController')();
+const reportmanagerController=require('./controller/reportmanagerController')();
+const usersController=require('./controller/usersController')();
+
 app.use("/api/userDetails",userDetailsController);
 app.use("/api/login",loginController);
+app.use("/api/taskDetails",taskDetailsController);
+app.use("/api/Projects",projectController);
+app.use("/api/Roles",roleController);
+app.use("/api/users",usersController);
 
 
 app.listen(port,function(){
