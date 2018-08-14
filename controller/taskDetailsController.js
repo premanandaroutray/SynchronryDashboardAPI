@@ -23,9 +23,30 @@ router.route('/')
             conn.close();
             res.status(400).send("Error occured while fetching the data from the table");
             console.error(err)
-        });   
+        });   router.route('/')
+        .get(function(req,res){
+            conn.connect().then(function(){
+                    var request=new sql.Request(conn);
+                    request.execute("sp_getAllTaskDetails").then(function(recordSet){
+                    conn.close();
+                    res.status(200).send(recordSet.recordset);
+                    })
+                    .catch(function(err){
+                        conn.close();
+                        res.status(400).send("Error occured while fetching the data from the table");
+                        console.error(err)
+                    });
+            }) 
+            .catch(function(err){
+                conn.close();
+                res.status(400).send("Error occured while fetching the data from the table");
+                console.error(err)
+            });   
+        });
+     
     });
  
+
 // Insert Task
 
     router.route('/')

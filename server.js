@@ -38,7 +38,7 @@ const usersController=require('./controller/usersController')();
 app.use("/api/userDetails",userDetailsController);
 app.use("/api/login",loginController);
 app.use("/api/taskDetails",taskDetailsController);
-app.use("/api/Projects",projectController);
+app.use("/api/projects",projectController);
 app.use("/api/Roles",roleController);
 app.use("/api/users",usersController);
 
