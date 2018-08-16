@@ -34,7 +34,7 @@ console.error(err);
             var transaction=new sql.Transaction(conn);
             transaction.begin().then(function(){
                 var request=new sql.Request(transaction);
-                request.input("ProjectName", sql.VarChar(100), req.body.FirstName)
+                request.input("ProjectName", sql.VarChar(50), req.body.ProjectName)
                 request.execute("sp_InsertProjects").then(function(){
                 transaction.commit().then(function(recordSet){
                 conn.close();

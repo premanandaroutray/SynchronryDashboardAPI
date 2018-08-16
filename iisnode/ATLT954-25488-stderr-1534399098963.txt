@@ -1,0 +1,469 @@
+Thu, 16 Aug 2018 05:58:25 GMT tedious deprecated The default value for `options.encrypt` will change from `false` to `true`. Please pass `false` explicitly if you want to retain current behaviour. at node_modules\mssql\lib\tedious.js:212:23
+Thu, 16 Aug 2018 05:58:25 GMT tedious deprecated The `IntN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:63:20
+Thu, 16 Aug 2018 05:58:29 GMT tedious deprecated The `BitN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:71:40
+Thu, 16 Aug 2018 05:58:29 GMT tedious deprecated The `FloatN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:73:20
+Thu, 16 Aug 2018 05:58:29 GMT tedious deprecated The `MoneyN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:78:20
+Thu, 16 Aug 2018 05:58:29 GMT tedious deprecated The `NumericN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:82:44
+Thu, 16 Aug 2018 05:58:29 GMT tedious deprecated The `DecimalN` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:83:44
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
+{ RequestError: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:828:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+  code: 'EREQUEST',
+  number: 208,
+  lineNumber: 14,
+  state: 1,
+  class: 16,
+  serverName: 'ATLT954\\SQLEXPRESS',
+  procName: 'sp_InsertProjects',
+  originalError: 
+   { Error: Invalid object name 'dbo.tbl_Projects'.
+    at handleError (D:\SynchronryDashboardAPI\node_modules\mssql\lib\tedious.js:826:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\connection.js:611:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (D:\SynchronryDashboardAPI\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (D:\SynchronryDashboardAPI\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     info: 
+      { number: 208,
+        state: 1,
+        class: 16,
+        message: 'Invalid object name \'dbo.tbl_Projects\'.',
+        serverName: 'ATLT954\\SQLEXPRESS',
+        procName: 'sp_InsertProjects',
+        lineNumber: 14,
+        name: 'ERROR',
+        event: 'errorMessage' } },
+  name: 'RequestError',
+  precedingErrors: [] }
